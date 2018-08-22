@@ -1,0 +1,16 @@
+{
+    "name": "vendor/commerce",
+    "authors": [
+        {
+            "name": "Gyozmo",
+            "email": "binantguillaume@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit test"
+    }
+}
