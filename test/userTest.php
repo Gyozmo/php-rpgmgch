@@ -19,5 +19,11 @@ class ClassHasAttributeTest extends TestCase
         $this->assertClassHasAttribute('createdAt', User::class);
     }
 
+    public function testMethodExist()
+    {
+        $this->assertTrue(
+            method_exists(User::class, 'getId'),"Method not found in User class"
+        );
+    }
 }
 ?>
